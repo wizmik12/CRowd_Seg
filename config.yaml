@@ -1,0 +1,26 @@
+data:
+  dataset_config: dummy_experiment/dummy_crowd_dataset_config.yaml
+
+model:
+  min_trace: False
+  seed: 12
+  crowd_type: prob-unet # pixel, image, global
+  identity_reg: False
+  alpha: 0.4
+  epochs: 1
+  loss: ce
+  batch_size: 5
+  optimizer: adam # sgd_mom, adam
+  learning_rate: 0.0001
+  lr_decay_after_epoch: 50
+  lr_decay_param: 0.1
+  backbone: unet # unet, linknet
+  encoder:
+    backbone: resnet34 # densenet121, resnet34
+    weights: imagenet # imagenet or None
+  decoder:
+    activation: softmax # softmax or None
+
+logging:
+  interval: 10
+  mlruns_folder: /work/work_mik/mlflow_server # http://127.0.0.1:5002

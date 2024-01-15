@@ -1,0 +1,8 @@
+data:
+  crowd: True  
+  train:
+    masks: masks/Train
+model:
+  crowd_type: image
+  seed: 789
+  alpha: 0

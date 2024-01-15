@@ -1,0 +1,8 @@
+data:
+  crowd: True  
+  train:
+    masks: masks/Train
+model:
+  crowd_type: global
+  seed: 123
+  alpha: 0

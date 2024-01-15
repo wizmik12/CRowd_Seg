@@ -1,0 +1,7 @@
+data:
+  crowd: False  
+  train:
+    masks: masks/Train/STAPLE
+model:
+  loss: ce
+  seed: 123

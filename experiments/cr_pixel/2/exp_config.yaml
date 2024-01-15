@@ -1,0 +1,9 @@
+data:
+  crowd: True  
+  train:
+    masks: masks/Train
+model:
+  loss: ce
+  crowd_type: pixel
+  seed: 456
+  alpha: 0

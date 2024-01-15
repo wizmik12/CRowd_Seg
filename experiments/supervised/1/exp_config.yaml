@@ -1,0 +1,6 @@
+data:
+  crowd: False
+
+model:
+  loss: ce
+  seed: 123
