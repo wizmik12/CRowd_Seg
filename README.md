@@ -1,6 +1,6 @@
 # Learning from crowds for automated histopathological image segmentation
 
-This repo presents the code of the crowdsourcing methods for segmentation of histopathological images. The models proposed are: **CR Global** and **CR Pixel** introduced in  *Crowdsourcing Segmentation of Histopathological Images Using Annotations Provided by Medical Students* and CR Image introduced in *Learning from crowds for automated histopathological image segmentation*.
+This repo presents the code of the crowdsourcing methods for segmentation of histopathological images. The models proposed are: **CR Global** and **CR Pixel** introduced in  *Crowdsourcing Segmentation of Histopathological Images Using Annotations Provided by Medical Students* and **CR Image** introduced in *Learning from crowds for automated histopathological image segmentation*.
 
 #### Citation
 
